@@ -63,7 +63,7 @@ nnoremap <C-k> <C-w><C-k>
 nnoremap <C-l> <C-w><C-l>
 nnoremap <C-h> <C-w><C-h>
 
-" substitute all occurencies of the word under the cursor in the file
+" substitutes all occurencies of the word under the cursor in the file
 nnoremap <Leader>s :%s/\<<C-r><C-w>\>/
 
 " exit insert mode and hold the current cursor position
