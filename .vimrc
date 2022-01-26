@@ -1,22 +1,22 @@
-set nocompatible		" stay allways vimproved
+set nocompatible	" stay allways vimproved
 set noexpandtab	    " tabs consist of tabs and no spaces
 set tabstop=4       " use width of 4 spaces for tab
-set shiftwidth=4		" use indentation width of 4 spaces
-set smartindent			" better indentation than autoindent
+set shiftwidth=4	" use indentation width of 4 spaces
+set smartindent		" better indentation than autoindent
 set encoding=utf-8	" the encoding displayed in vim
 set fileencoding=utf-8  " the encoding written to file
 set fileformat=unix " store file in unix format to prevent a bunch of
                     " conversion issues when working with GitHub
 set noswapfile      " no annoying swapfiles
-set scrolloff=8			" keep the cursor more centered
+set scrolloff=8		" keep the cursor more centered
 set signcolumn=yes  " displays signs in the column for the numbers
 set wildmenu        " suggestions are displayed
 set showmatch       " show the matching pair of brackets
-set splitbelow			" more intuitive splitbehaviour for :sp
-set splitright			" more intuitive splitbehaviour for :vs
-set number			    " show linenumbers
+set splitbelow		" more intuitive splitbehaviour for :sp
+set splitright		" more intuitive splitbehaviour for :vs
+set number			" show linenumbers
 set relativenumber  " show numbers in a relative way
-set visualbell			" combined with the next line no beep and
+set visualbell		" combined with the next line no beep and
 set visualbell t_vb=	" no flash will occur
 set hidden          " switch buffer without the necessary of :w and so on
 set undodir=~/.vim/undo " set directory for undos (permissions are set to 700)
@@ -25,13 +25,13 @@ set undolevels=3000	" number of changes that can be undone
 set viminfo='1000,n$HOME/.viminfo " remember file informations
 filetype on         " read filetype.vim at startup and sets the autocmds
 syntax enable       " activate syntax highlighting
-colorscheme pablo		" use the colorscheme pablo
+colorscheme pablo	" use the colorscheme pablo
 set colorcolumn=81	" maker that helps to use only 80 columns
-set textwidth=80		" line length doesn’t go beyond 80 characters
-set laststatus=2		" allways show the statusline
+set textwidth=80	" line length doesn’t go beyond 80 characters
+set laststatus=2	" allways show the statusline
 set showmode        " show current mode in command-line
 set showcmd	        " show already typed keys when more are expected
-set cursorline			" find the current line quicker
+set cursorline		" find the current line quicker
 
 " set the color for the column 81 marker
 highlight ColorColumn ctermbg=brown
