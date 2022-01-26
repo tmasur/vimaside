@@ -6,7 +6,7 @@ set smartindent			" better indentation than autoindent
 set encoding=utf-8		" the encoding displayed in vim
 set fileencoding=utf-8	" the encoding written to file
 set fileformat=unix		" store file in unix format to prevent a bunch of
-						" conversion issues when working with GitHub
+                        " conversion issues when working with GitHub
 set noswapfile			" no annoying swapfiles
 set scrolloff=8			" keep the cursor more centered
 set signcolumn=yes		" displays signs in the column for the numbers
@@ -22,7 +22,7 @@ set hidden				" switch buffer without the necessary of :w and so on
 set undodir=~/.vim/undo	" set directory for undos (permissions are set to 700)
 set undofile			" activate undofile
 set undolevels=3000		" number of changes that can be undone
-set viminfo='1000,n$HOME/.viminfo " remember file informations
+set viminfo='1000,n$HOME/.viminfo	" remember file informations
 filetype on				" read filetype.vim at startup and sets the autocmds
 syntax enable			" activate syntax highlighting
 colorscheme pablo		" use the colorscheme pablo
@@ -90,9 +90,9 @@ call plug#end()
 
 " restore the cursor postition when reopening files
 autocmd BufReadPost *
-	\ if line("'\"") > 1 && line("'\"") <= line("$") |
-	\	execute "normal! g`\"" |
-	\ endif
+    \ if line("'\"") > 1 && line("'\"") <= line("$") |
+    \	execute "normal! g`\"" |
+    \ endif
 
 " deactivate cursorline option, when in insert mode
 autocmd InsertLeave,WinEnter * set cursorline
