@@ -5,8 +5,7 @@ set shiftwidth=4	" use indentation width of 4 spaces
 set smartindent		" better indentation than autoindent
 set encoding=utf-8	" the encoding displayed in vim
 set fileencoding=utf-8  " the encoding written to file
-set fileformat=unix " store file in unix format to prevent a bunch of
-                    " conversion issues when working with GitHub
+set fileformat=unix " store file in unix format (unix=lf, win=cr lf, mac=cr)
 set noswapfile      " no annoying swapfiles
 set scrolloff=8		" keep the cursor more centered
 set signcolumn=yes  " displays signs in the column for the numbers
