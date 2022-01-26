@@ -5,6 +5,8 @@ set shiftwidth=4		" use indentation width of 4 spaces
 set smartindent			" better indentation than autoindent
 set encoding=utf-8		" the encoding displayed in vim
 set fileencoding=utf-8	" the encoding written to file
+set fileformat=unix		" store file in unix format to prevent a bunch of
+						" conversion issues when working with GitHub
 set noswapfile			" no annoying swapfiles
 set scrolloff=8			" keep the cursor more centered
 set signcolumn=yes		" displays signs in the column for the numbers
@@ -25,6 +27,7 @@ filetype on				" read filetype.vim at startup and sets the autocmds
 syntax enable			" activate syntax highlighting
 colorscheme pablo		" use the colorscheme pablo
 set colorcolumn=81		" maker that helps to use only 80 columns
+set textwidth=80		" line length doesn’t go beyond 80 characters
 set laststatus=2		" allways show the statusline
 set showmode			" show current mode in command-line
 set showcmd				" show already typed keys when more are expected
