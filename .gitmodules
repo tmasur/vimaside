@@ -1,0 +1,3 @@
+[submodule ".vim/plugged/vim-42header"]
+    path = .vim/plugged/vim-42header
+    url = https://github.com/pbondoer/vim-42header.git
